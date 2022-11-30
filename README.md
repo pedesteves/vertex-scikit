@@ -1,4 +1,4 @@
-# vertex AI - scikit
+# Vertex AI - scikit
 
 The repository contains pipelines and sample models to show running Scikit Learn models on Vertex AI
 
