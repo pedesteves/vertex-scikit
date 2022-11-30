@@ -1,0 +1,94 @@
+[
+    {
+        "name": "Instance",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+            {
+                "name": "Area",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "Perimeter",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "MajorAxisLength",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "MinorAxisLength",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "AspectRation",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "Eccentricity",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "ConvexArea",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "EquivDiameter",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "Extent",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "Solidity",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "roundness",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "Compactness",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "ShapeFactor1",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "ShapeFactor2",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "ShapeFactor3",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "ShapeFactor4",
+                "type": "FLOAT",
+                "mode": "NULLABLE"
+            }
+        ]
+    },
+    {
+        "name": "PredictedClass",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]
